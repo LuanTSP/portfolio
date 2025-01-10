@@ -1,0 +1,31 @@
+.footer {
+  height: 60px;
+  background-color: #333;
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.text {
+  color: white;
+}
+
+.links {
+  display: flex;
+}
+
+.links a {
+  color: white;
+  display: flex;
+  align-items: center;
+  margin-left: 2rem;
+}
+
+.links svg {
+  fill: white;
+  margin-right: 0.2rem;
+  height: 20px;
+  width: 20px;
+  transition: 0.5s;
+}
