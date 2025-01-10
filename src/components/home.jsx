@@ -16,7 +16,7 @@ const Home = () => {
             Sou apaixonado por Matemática, Computação, Programação, Música e muitas outras coisas. Procuro sempre apreeder com outras pessoas e 
             gosto de participar de projetos em equipe. 
           </p>
-          <h1 className="title">Pricipais Aéras de Interesse</h1>
+          <h1 className="title">Projetos</h1>
           <Projetos />
       </div>
     </main>

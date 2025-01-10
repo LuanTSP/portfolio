@@ -1,0 +1,29 @@
+.repo {
+  position: relative;
+  margin-left: 0.5rem;
+}
+
+.repo::before {
+  content: '';
+  width: 3px;
+  height: 100%;
+  background: #333;
+  position: absolute;
+  border-radius: 3px;
+  left: -8px;
+  transition: 0.2s;
+}
+
+.repo:hover::before {
+  background: #FF70A6;
+}
+
+.name {
+  font-size: 1.125rem;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+.repo:hover .name {
+  color: #FF70A6;
+}

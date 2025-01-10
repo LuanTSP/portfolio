@@ -23,7 +23,7 @@
 
 .foto:hover {
   transition: 0.1s;
-  box-shadow: 0 0 5px 1px #FF70A6;
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.3);
 }
 
 .foto::after {
